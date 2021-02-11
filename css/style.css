@@ -4,7 +4,7 @@
 }
 body{
 	font-family: sans-serifial,Arial !important;
-	-webkit-transition: all .5s ease;
+	
 }
 a{
 	text-decoration:none;
@@ -18,7 +18,7 @@ h1,h2,h3,h4,h5,h6{
 	margin-top: 10px;
 	margin-bottom:10px;
 	font-weight:normal;
-}
+}/*every section containerFull fix  container*/
 .containerFull{
 	width: 100%;
 	
@@ -29,14 +29,20 @@ h1,h2,h3,h4,h5,h6{
 .container{
 	width: 1349px;
 	background: green;
+	position:fixed;
+	z-index:1;
 }
+
+/*start header section */
 #header{
 	
 }
 #header .logo_left {
     float: left;
+    padding: 1px;
     margin-left: 138px;
-    margin-top: -3px;
+    margin-top: -11px;
+
 }
 #header .logo_left h1{
 	font-family:lato;
@@ -51,7 +57,7 @@ h1,h2,h3,h4,h5,h6{
 	color:#000;
 	transition:1s ease;
 }
-
+/*header menu*/
 #header nav{
 	 float:right;
 	 margin-right: 150px;
@@ -81,13 +87,16 @@ h1,h2,h3,h4,h5,h6{
 	transition: .5s;background:white;
 }#header #menu li:hover{
 	
-	padding:5px;
+	
 
 	
 }
 #header #menu li.active{
 	
-}
+}/*end header section */
+
+/*strat banner section */
+
 .bannerSlide{
 	height: 650px;
 }.banner{
@@ -147,6 +156,10 @@ h1,h2,h3,h4,h5,h6{
 	border-color: #000;
 	background: #000;
 }
+/*end banner section */
+
+/*strat sigle title section */
+
 #sigleSection{
 	margin-top: 50px;
 	
@@ -183,13 +196,18 @@ h1,h2,h3,h4,h5,h6{
 	background:#2196f3;
 	left: -70px;
     bottom: 5px;
-}#about_description{
+}
+/*end sigle title section */
+/*strat about section */
+
+#about_description{
 	width:1300px;
 }
 .about_area{
 	width: 100%;
 	margin-left: 100px;
 	margin-right:100px;
+	
 }	
 .about_area .about_cotent{
 	width: 30%;
@@ -242,6 +260,8 @@ h1,h2,h3,h4,h5,h6{
 	height: 20px;
 	
 }
+/*end about section */
+/*start service section */
 
 
 
@@ -290,6 +310,10 @@ h1,h2,h3,h4,h5,h6{
 	font-weight:bold;
 	text-shadow:2px 3px 10px #0eef0e;
 }
+/*end service section */
+
+/*strat project section */
+
 
 .project_section{
 	margin-top: 10px;
@@ -315,6 +339,10 @@ h1,h2,h3,h4,h5,h6{
 }.project_area p{
 	font-size: 12px;
 }
+/*end project section */
+
+/*strat portfolio section */
+
 .portfolio{
 	margin-left: 80px;
 	margin-top: 60px;
@@ -363,6 +391,10 @@ margin-bottom: 40px;
 	width: 100%;
 	margin-left: 90px;
 }
+/*end portfolio section */
+
+/*start  conatact  us*/
+
 .frmsection{
 	width: 45%;
 	margin-top:50px;
@@ -393,3 +425,4 @@ margin-bottom: 40px;
 	margin-left: 25px;
 	width:35%;
 }
+/*end  conatact  us*/
